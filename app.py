@@ -185,10 +185,10 @@ def reason_distribution_and_conversion(df):
     
     # 更新布局
     fig.update_layout(
-        title='學習原因分佈和轉換率',
+        title='學習原因分佈和付費轉換率',
         xaxis=dict(title='學習原因'),
         yaxis=dict(title='用戶數量', side='left'),
-        yaxis2=dict(title='轉換率', side='right', overlaying='y', tickformat='.1%'),
+        yaxis2=dict(title='付費轉換率', side='right', overlaying='y', tickformat='.1%'),
         legend=dict(x=1.1, y=1),
         barmode='group'
     )
